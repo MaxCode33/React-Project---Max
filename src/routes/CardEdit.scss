@@ -1,0 +1,26 @@
+.custom-button-edit {
+    display: flex;
+    margin-top: 1rem;
+    width: 9rem;
+    justify-content: center;
+    border-radius: 0.375rem;
+    background-color: #181bcc;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+
+    &:hover {
+        background-color: #1cddf7;
+
+        &:focus {
+            outline: 2px solid #181bcc;
+            outline-offset: 2px;
+        }
+    }
+}

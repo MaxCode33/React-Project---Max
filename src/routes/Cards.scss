@@ -1,0 +1,17 @@
+.custom-input-cards {
+    display: block;
+    padding: 0.375rem 0.5rem;
+    border-radius: 0.375rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+    &::placeholder {
+        color: #000000;
+    }
+
+    &:focus {
+        outline: 2px solid #181bcc;
+        outline-offset: 2px;
+    }
+}
